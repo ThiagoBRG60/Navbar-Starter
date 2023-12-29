@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Inter, sans-serif;
+  background-color: rgb(243, 237, 229);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 150px 100px 150px;
+}
+.menu {
+  display: none;
+}
+header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+header nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.products-info {
+  display: none;
+  width: 435px;
+  height: 310px;
+  padding: 40px 35px 40px 70px;
+  background-color: #FFF;
+  position: absolute;
+  top: 128px;
+  left: 370px;
+  border-radius: 15px;
+}
+.products-info::before {
+  content: "";
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #FFF;
+  position: absolute;
+  top: -10px;
+  left: 96px;
+}
+.products-info p {
+  font-size: 14.5px;
+  color: rgb(95, 119, 143);
+}
+.products-info h4 {
+  color: rgb(10,38,63);
+}
+.close-menu {
+  display: none;
+}
+.spense-info, .fiber-info, .gradie-info {
+  position: relative;
+}
+.fiber-info, .gradie-info {
+  margin-top: 30px;
+}
+.spense-info::before, .fiber-info::before, .gradie-info::before  {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: 0;
+  left: -32px;
+  background-repeat: no-repeat;
+}
+.spense-info::before {
+  background-image: url(./Assets/Spense_Icon.svg);
+}
+.fiber-info::before {
+  background-image: url(./Assets/Fiber_Icon.svg);
+}
+.gradie-info::before {
+  background-image: url(./Assets/Gradie_Icon.svg);
+}
+.login-buttons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.login-buttons a:first-of-type {
+  text-decoration: none;
+  color: #000;
+}
+.login-buttons a:first-of-type:hover {
+  text-decoration: underline;
+}
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 55px;
+  color: #FFF;
+  border-radius: 4px;
+  background-color: rgb(19,52,22);
+  text-decoration: none;
+  transition: 0.2s;
+}
+.sign-up:hover {
+  background-color: rgb(33, 82, 37);
+}
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 1.95fr 1fr;
+}
+.main-heading {
+  padding: 70px 150px;
+}
+.main-heading h1 {
+  font-size: 58px;
+}
+.main-heading h1 span {
+  color: rgb(247,179,1);
+}
+.sub-heading {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.margin-top {
+  margin-top: 20px;
+}
+.heading-reviews {
+  display: flex;
+  align-items: center;
+}
+.heading-reviews img:not(:last-of-type) {
+  margin-left: 10px;
+}
+.heading-reviews img:first-of-type {
+  margin-left: 20px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+.footer-companies {
+  display: flex;
+  gap: 50px;
+}

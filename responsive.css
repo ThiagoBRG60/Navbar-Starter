@@ -1,0 +1,217 @@
+@media (min-width: 1445px) {
+  header {
+    padding: 60px 312px 100px 150px;
+  }
+  .products-info {
+    top: 128px;
+    left: 530px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    padding: 70px 80px 50px 100px;
+  }
+  .logo {
+    width: 25%;
+  }
+  .menu {
+    display: block;
+    width: 7%;
+  }
+  header nav ul li:not(:first-of-type) {
+    display: none;
+  }
+  header nav ul li a:first-of-type {
+    display: none;
+  }
+  .products-info {
+    display: none;
+    width: 505px;
+    height: 400px;
+    padding: 40px 35px 40px 70px;
+    top: 80px;
+    left: 235px;
+    font-size: 20px;
+  }
+  .products-info p {
+    font-size: 18px;
+  }
+  .products-info::before {
+    display: none;
+  }
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .main-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 100px;
+  }
+  .main-heading h1 {
+    font-size: 55px;
+  }
+  .main-heading p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000000a1;
+  }
+  .heading-reviews {
+    color: #000000a1;
+  }
+  .login-buttons {
+    display: none;
+  }
+  .close-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+  .close-menu p {
+    margin-left: -35px;
+  }
+  .spense-info {
+    margin-top: 30px;
+  }
+  .sign-up {
+    width: 180px;
+    height: 65px;
+    margin-top: 30px;
+  }
+  .image-hero {
+    display: none;
+  }
+  .footer-companies {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 50px;
+  }
+  footer {
+    padding: 100px 0;
+    font-size: 20px;
+    color: #000000a1;
+  }
+  .footer-companies img {
+    margin-top: 15px;
+    width: 44%;
+  }
+}
+
+@media (max-width: 430px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    padding: 70px 20px 50px 20px;
+  }
+  .menu {
+    display: block;
+  }
+  header nav ul li:not(:first-of-type) {
+    display: none;
+  }
+  header nav ul li a:first-of-type {
+    display: none;
+  }
+  .products-info {
+    width: 92%;
+    max-width: 400px;
+    height: 395px;
+    padding: 20px 35px 20px 60px;
+    top: 70px;
+    left: 15px;
+    z-index: 1;
+  }
+  .products-info::before {
+    display: none;
+  }
+  .products-info h4 {
+    font-size: 16px;
+  }
+  .products-info p {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .close-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+  .close-menu p {
+    margin-left: -35px;
+  }
+  .spense-info {
+    margin-top: 25px;
+  }
+  .login-buttons {
+    display: none;
+  }
+  .main-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-heading {
+    padding: 0px 50px 0 20px;
+  }
+  .main-heading h1 {
+    font-size: 36px;
+  }
+  .sub-heading {
+    font-size: 15px;
+    opacity: 0.7;
+  }
+  .sign-up {
+    width: 140px;
+    height: 50px;
+  }
+  .heading-reviews {
+    font-size: 14.5px;
+    color: #000000a1;
+  }
+  .image-hero {
+    display: none;
+  }
+  .footer-companies {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0 0 0 20px;
+  }
+  footer {
+    padding: 100px 0;
+    font-size: 15px;
+    color: #000000a1;
+  }
+  .footer-companies img {
+    width: 44%;
+  }
+}
+
+@media (max-width: 360px) {
+  .products-info p {
+    font-size: 13.5px;
+  }
+}
+
+@media (max-width: 280px) {
+  .products-info {
+    height: 406px;
+    padding: 20px 30px 20px 60px;
+  }
+  .products-info h4 {
+    font-size: 14px;
+  }
+  .products-info p {
+    font-size: 13px;
+  }
+}
